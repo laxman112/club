@@ -1,0 +1,275 @@
+body {
+  padding-top: 50px;
+  background-color: #fff;
+  min-height: 100vh;
+  font: normal 16px sans-serif;
+}
+
+.dropdown-menu{
+font: normal 16px sans-serif;
+}
+/*nab bar color change  */
+#navbar a:active {
+  color: black;
+} 
+#navbar a:hover {
+  color: green;
+}
+.xl{
+  color: green;
+  background-color:#333335;
+  height: 450px;
+  padding-top: 130px;
+  margin-top: 30px;
+
+}
+h3{
+  color: #fff;
+}
+a:link { color: green;
+  text-decoration: none; 
+}
+/* end nab bar color change  */
+.jumbotron p{
+  font-size: 16px;
+}
+
+/* nabbar margin top change  */
+li.dropdown.open ul.dropdown-menu {
+  margin-top: 10px;
+}
+/* end nabbar margin top change  */
+
+
+
+/* footor logo of facebook,youtube,twitter,gmail */
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  width: 35px;
+  text-align: center;
+  margin: 1px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/* end footor logo of facebook,youtube,twitter,gmail */
+
+
+
+/* button details */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: green; /* Add a dark-grey background on hover */
+}
+/* end button details */
+
+
+
+/* sliding h1 and p font size is change */
+h1{
+	font-size: 70px;
+}
+
+.carousel-caption p{
+  font-size: 20px;
+}
+/* end sliding h1 and p font size is change */
+
+
+
+/* youtube height and width change */
+
+.video {
+  width: 100%;
+  height: 430px;
+}
+/* end youtube height and width change */
+
+
+
+ul.centercircle{
+list-style-type: circle;
+margin: 10px;
+}
+
+/* main services of caption  text button */
+.caption{
+  position: relative; 
+  margin-bottom: 20px;
+
+}
+.caption1{
+  position: absolute;
+  color: #FFF;
+  font-family: "Times New Roman", Times, serif;
+  top: 60px;
+  height: 20%;
+  width: 100%;
+  margin:10px;
+}
+.caption2{
+ position: absolute;
+ border-style: double;
+ border: 3px solid;
+ border-color: black;
+ top: 200px;
+ left: 0;
+ height: 60%;
+ width: 80%;
+ margin:30px;
+ background-color: gray-dark;
+ z-index: 10;
+ margin-top: 10px;
+}
+
+.div-button{
+ position: absolute;
+ top: 120px;
+ left: 140px;
+ right: 140px;
+ opacity: 0;
+ transition: opacity .35s ease;
+}
+
+.div-button a {
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+.caption:hover .div-button {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.caption:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+ 
+ /* main services of caption  image center */
+.center-block {
+  display: block;
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* end main services of caption  text button */
+
+
+
+/* images height auto acept */
+.img-responsive{
+  height: auto;
+}
+/* end images height auto acept */
+
+
+
+/* backgroung of col-md-6 is change is white light */
+.backgroundcolor{
+  background-color: #f7f7f8;
+}
+/* end backgroung of col-md-6 is change is white light */
+
+
+
+/*  coach image height abd width change */
+.id{
+  width: 100%;
+  height: 503px;
+}
+/*  end coach image height abd width change */
+
+
+/*   message slide image of height abd width change */
+.height{
+  height: 400px;
+  width: 100%;
+  color: black;
+}
+/*  end message slide image of height abd width change */
+
+
+
+/*  event image height  */
+.imgheight{
+  height: 300px;
+  width: 100%;
+}
+/*  end event image height  */
+
+#myCarousel{
+  background-color: white;
+}
+
+
+/*  maps image height  */
+.map{
+  width:400px;
+  height: 450px;
+  margin-top: 30px;
+}
+/*  end maps image height  */
+
+
+/*  footoor colors change  */
+.bgcolor{
+  font-family: "Roboto",Helvetica,Arial,sans-serif;
+  background-color:#333335;
+  color: #b7b7b7;
+  height: 450px;
+  padding-top: 130px;
+  margin-top: 30px;
+}
+.bgcolor a:hover {
+  color: green;
+
+/*  end footoor colors change  */
